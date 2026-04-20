@@ -8,4 +8,13 @@ public class FirstSwap {
 
     }
 
+    public static String[] allSwap(String[] strings) {
+
+
+
+
+
+
+    }
+
     }
