@@ -6,7 +6,9 @@ public class WordLen {
 
         Map<String, Integer> result = new HashMap<>();
 
-
+        for (String word : words) {
+            result.put(word, 0);
+        }
 
 
     }
