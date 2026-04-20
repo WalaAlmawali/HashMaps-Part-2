@@ -7,6 +7,11 @@ public class WordLength {
 
         Map<String, Integer> result = new HashMap<>();
 
+        for (String word : words) {
+
+            result.put(word, word.length());
+        }
+
 
     }
 
