@@ -9,8 +9,15 @@ public class WordMultiple {
 
     }
 
+    public Map<String, Boolean> wordMultiple(String[] strings) {
 
 
-}
+
+
+    }
+
+
+
+    }
 
 
