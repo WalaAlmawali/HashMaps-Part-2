@@ -17,7 +17,11 @@ public class AllSwap {
             if (indexMap.containsKey(key)) {
                 int prevIndex = indexMap.get(key);
 
+                String temp = strings[i];
+                strings[i] = strings[prevIndex];
+                strings[prevIndex] = temp;
 
+                indexMap.remove(key);
 
             }
 
