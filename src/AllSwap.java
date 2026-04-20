@@ -3,7 +3,7 @@ import java.util.*;
 public class AllSwap {
     public static void main(String[] args) {
 
-        String[] input = {"ab", "ac"};
+        String[] input = {"ax", "bx", "cx", "cy", "by", "ay", "aaa", "azz"};
 
         System.out.println(java.util.Arrays.toString(allSwap(input)));
 
@@ -11,29 +11,37 @@ public class AllSwap {
 
     public static String[] allSwap(String[] strings) {
 
-        Map<Character, Integer> indexMap = new HashMap<>();
+        Map<String, Integer> IndexMap = new HashMap<>();
 
-        for (int i = 0; i < strings.length; i++) {
+        int i = 0;
 
-            char key = strings[i].charAt(0);
+        for (String x : strings) {
 
-            if (indexMap.containsKey(key)) {
-                int prevIndex = indexMap.get(key);
+            String target = x.substring(0, 1);
 
-                String temp = strings[i];
-                strings[i] = strings[prevIndex];
-                strings[prevIndex] = temp;
+            if (IndexMap.containsKey(target)) {
 
-                indexMap.remove(key);
+                int prevIndex = IndexMap.get(target);
+
+                String temp = strings[i]; //strings[1]= ac
+                strings[i] = strings[prevIndex]; //string[1]= string[0] = ab
+                strings[prevIndex] = temp; //string[0] = ac
+
+                IndexMap.remove(target);
+
+                i++;
 
             } else {
-                indexMap.put(key, i);
+
+                IndexMap.put(target, i);
+
+                i++;
             }
 
-
         }
-        return strings;
 
+
+    return strings;
     }
 }
 
