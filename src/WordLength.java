@@ -5,6 +5,7 @@ public class WordLength {
 
         String [] words = {"a", "bb", "a", "bb"};
 
+        Map<String, Integer> result = new HashMap<>();
 
 
     }
