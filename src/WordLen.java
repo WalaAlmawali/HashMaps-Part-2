@@ -4,6 +4,9 @@ public class WordLen {
 
         String [] words = {"a", "b", "a", "c", "b"};
 
+        Map<String, Integer> result = new HashMap<>();
+
+
 
 
     }
