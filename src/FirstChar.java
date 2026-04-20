@@ -8,6 +8,8 @@ public class FirstChar {
     }
     public static Map<String, String> firstChar(String[] words) {
 
+        Map<String, String> result = new HashMap<>();
+
 
 
 
