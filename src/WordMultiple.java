@@ -11,6 +11,9 @@ public class WordMultiple {
 
     public Map<String, Boolean> wordMultiple(String[] strings) {
 
+        Map<String, Integer> countMap = new HashMap<>();
+
+
 
 
 
