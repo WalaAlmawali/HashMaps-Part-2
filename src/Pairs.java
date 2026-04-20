@@ -8,6 +8,7 @@ public class Pairs {
 
         for (String pair : pairs) {
 
+            String firstChar = pair.substring(0,1);
 
         }
 
