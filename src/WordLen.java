@@ -9,6 +9,7 @@ public class WordLen {
         for (String word : words) {
             result.put(word, 0);
         }
+        System.out.println(result);
 
 
     }
