@@ -6,4 +6,11 @@ public class WordAppend {
 
     }
 
+    public static String wordAppend(String[] words) {
+
+
+
+
+    }
+
     }
