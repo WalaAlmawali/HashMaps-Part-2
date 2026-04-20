@@ -6,8 +6,10 @@ public class Pairs {
         String[] pairs = {"code", "bug"};
         Map<String, Integer> result = new HashMap<>();
 
+        for (String pair : pairs) {
 
 
+        }
 
     }
 
