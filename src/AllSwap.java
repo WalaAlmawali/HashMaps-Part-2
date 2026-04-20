@@ -3,6 +3,9 @@ import java.util.*;
 public class AllSwap {
     public static void main(String[] args) {
 
+        String[] input = {"ab", "ac"};
+
+        System.out.println(java.util.Arrays.toString(allSwap(input)));
 
     }
 
@@ -23,11 +26,14 @@ public class AllSwap {
 
                 indexMap.remove(key);
 
+            } else {
+                indexMap.put(key, i);
             }
 
 
         }
-
+        return strings;
 
     }
+}
 
