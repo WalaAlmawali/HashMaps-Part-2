@@ -16,6 +16,8 @@ public class Pairs {
 
         }
 
+        System.out.println(result);
+
     }
 
     }
