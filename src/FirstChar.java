@@ -11,6 +11,8 @@ public class FirstChar {
         Map<String, String> result = new HashMap<>();
         for (String word : words) {
 
+            String firstChar = word.substring(0, 1);
+
 
 
         }
