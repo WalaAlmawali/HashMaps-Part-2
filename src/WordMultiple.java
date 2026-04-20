@@ -13,6 +13,21 @@ public class WordMultiple {
 
         Map<String, Integer> countMap = new HashMap<>();
 
+        for (String str : strings) {
+
+            if (countMap.containsKey(str)) {
+
+                countMap.put(str, countMap.get(str) + 1);
+            }else{
+                countMap.put(str, 1);
+            }
+
+
+            }
+
+
+    }
+
 
 
 
