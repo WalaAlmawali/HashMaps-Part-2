@@ -5,6 +5,12 @@ public class AllSwap {
 
 
 
+    }
+
+    public static String[] allSwap(String[] strings) {
+
+
+
 
     }
 
